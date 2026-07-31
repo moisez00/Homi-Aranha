@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    padding: 50px;
+    text-align: center;
+    font-size:75px;
+    color: white;
+    opacity: 70%;
+}
+.texto ul{
+    background-color: white;
+    opacity: 70%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url(./assets/pordosol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.capa ul{
+    
+
+    a{
+        img{
+            height: 455px;
+            margin-left: 765px;
+        }
+    }
+}
+ul{
+    margin-left:45px ;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+
