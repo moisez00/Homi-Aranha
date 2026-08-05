@@ -27,12 +27,11 @@ body{
     a{
         img{
             position: absolute;
-            top: 50%;
-            margin-left: 1150px;
-            margin-top: -200px;
-            transform: translateX(30%);
-            height: 455px;
+            right: 50px;
+            top: 55%;
+            transform: translateY(-50%);
             border-radius: 20px;
+            
         }
     }
 }
@@ -82,33 +81,30 @@ ul{
     margin-bottom: 50px;
 }
 
-.Jacob {
-    width: 300px;
-    height: 400px;
-    margin-left: 250px;
-}
-.TomHollandLindo{
-    width: 300px;
-    height: 400px;
-}
-.Zendaya {
-    width: 300px;
-    margin-left: 250px;
-    height: 400px;
-}
-
-.descrição{
+.personagens {
     display: flex;
-    p {
-        font-family: "Outfit", sans-serif;
-        color: #f2f5f7;
+    justify-content: center;
+    gap: 40px;
+}
 
-    }
-    .segundop{
-        margin-left: 400px;
-        width: 30px;
-    }
-    .terceirop{
-        margin-left: 250px;
-    }
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: white;
+    border-radius: 5%;
+    margin-bottom: 15px;
+}
+
+.personagem img {
+    width: 300px;
+    height: 400px;
+}
+
+.personagem p {
+    margin-top: 15px;
+    color: #141414;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
 }
