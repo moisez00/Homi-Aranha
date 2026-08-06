@@ -3,14 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
+.title{
     font-family: "Bebas Neue", sans-serif;
-    padding: 50px;
+    background-color: #14141475;
+    filter: contrast(110%);
     text-align: center;
-    font-size:75px;
-    color: #f2f5f7;
-    opacity: 70%;
-    margin-bottom: -5px;
+    font-size:40px;
+    color: #FFFFFF40;
+    padding: 20px 10px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
 }
 body{
     width: 100%;
@@ -20,28 +22,35 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    
 }
-.capa ul{
-    margin-left: 40px;
-    hr{
-        mix-blend-mode: color-dodge;
-    }
-    a{
-        img{
-            position: absolute;
-            right: 200px;
-            top: 65%;
-            transform: translateY(-50%);
-            border-radius: 20px;
-            
+.capa{
+    background-color: #14141475;
+    filter: contrast(110%);
+    ul{
+        margin-left: 40px;
+        margin-bottom: 15px;
+        hr{
+            mix-blend-mode: color-dodge;
+            margin-top: -50px;
+        }
+        a{
+            img{
+                position: absolute;
+                top: 20px;
+                right: 40px;
+                border-radius: 20px;
+                filter: contrast(100%);
+            }
         }
     }
 }
 
 .quebra1{
     margin-right: 80px;
-    margin-left: 80px;
+    margin-left: 40px;
     mix-blend-mode: color-dodge;
+    background-color: none;
 }
 
 ul{
@@ -71,8 +80,9 @@ ul{
     border: 2px solid #f2f5f7;
     border-radius: 30px;
     width: fit-content;
-    margin-top: -50px;
-    margin-left: 1085px;
+    position: absolute;
+    top: 550px;
+    right: 180px;
     padding: 9px;
     a{
         text-decoration: none;
