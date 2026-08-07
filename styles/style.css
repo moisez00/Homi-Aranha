@@ -166,15 +166,40 @@ ul{
 }
 
 .creditos{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 50px;
-    margin-top: 10%;
+    font-family: "Fjalla One", sans-serif;
+    font-size:80px;
     text-align: justify;
-    margin-left: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    h2{
+        border: #FFFFFF;
+    }
 }
 
-.coiso{
-    background-color: white;
+.miranha{
+    position: fixed;
+}
+
+.ult_quebra{
+    margin-right: 180px;
+    margin-left: 180px;
     mix-blend-mode: color-dodge;
-    opacity: 40%;
+    top: 40px;
+}
+
+.pato{
+    font-family: "Outfit", sans-serif;
+    font-size:35px;
+    text-align: justify;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+    padding-bottom: 40px;
+}
+
+.treco{
+    margin-right: 500px;
+    margin-left: 500px;
 }
